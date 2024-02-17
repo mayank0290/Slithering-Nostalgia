@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+.body {
+  background-image: url("../assets/bg.png");
+
+  min-height: 100vh;
+  /* background-size: 100vw 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* body me items ko center kar sakte h horizontally and vertically both */
+}
+
+#scoreT{
+position: absolute;
+top: 150px;
+right: 200px;
+font-size: 60px;
+font-weight: bold;
+font-family: 'Teko', sans-serif;
+}
+
+#board {
+  background: linear-gradient(rgb(241, 255, 187), rgb(170, 255, 162));
+  width: 90vmin;
+  height: 90vmin;
+  border: 3px solid black;
+   display: grid; 
+  grid-template-rows: repeat(18,1fr); /* basically 18 x 18 ki ek grid ban chuka h board */
+  grid-template-columns: repeat(18, 1fr);
+}
+
+.head{
+  background: linear-gradient(rgb(26, 42, 216), rgb(0, 166, 255));
+  border-radius: 20px;
+  border: 2px solid rgb(17, 0, 255); 
+}
+
+.snake{
+  background-color: rgb(27, 128, 206); 
+  border: .29vmin solid white; 
+  border-radius: 18px;
+}
+.food{
+  background: linear-gradient(rgb(231, 35, 35), orange);
+  border: .30vmin solid brown ; 
+
+  border-radius: 10px;
+}
+
