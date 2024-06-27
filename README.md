@@ -1,2 +1,9 @@
 # Snake-game
-A snake game created using HTML, CSS and Javascript
+
+**Tech Stack**: HTML, CSS, and JavaScript
+
+**Features**:
+Snake movement using arrow keys.
+Random food generation.
+Score tracking.
+Game over when the snake hits the wall or itself.
